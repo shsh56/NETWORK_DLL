@@ -1,0 +1,39 @@
+﻿Build started 22/02/2016 13:18:07.
+     1>Project "d:\Users\User\documents\visual studio 2010\Projects\NETWORK_DLL\NETWORK_DLL\NETWORK_DLL.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "d:\users\user\documents\visual studio 2010\Projects\NETWORK_DLL\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\NETWORK_DLL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D NETWORK_DLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\NETWORK_DLL.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D NETWORK_DLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D NETWORK_DLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\NETWORK_DLL.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt NETWORK_DLL.cpp
+         NETWORK_DLL.cpp
+       ManifestResourceCompile:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\NETWORK_DLL.dll.embed.manifest.res" Debug\NETWORK_DLL_manifest.rc 
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\users\user\documents\visual studio 2010\Projects\NETWORK_DLL\Debug\NETWORK_DLL.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\NETWORK_DLL.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"d:\users\user\documents\visual studio 2010\Projects\NETWORK_DLL\Debug\NETWORK_DLL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\users\user\documents\visual studio 2010\Projects\NETWORK_DLL\Debug\NETWORK_DLL.lib" /MACHINE:X86 /DLL Debug\NETWORK_DLL.dll.embed.manifest.res
+         Debug\dllmain.obj
+         Debug\NETWORK_DLL.obj
+         Debug\stdafx.obj
+            Creating library d:\users\user\documents\visual studio 2010\Projects\NETWORK_DLL\Debug\NETWORK_DLL.lib and object d:\users\user\documents\visual studio 2010\Projects\NETWORK_DLL\Debug\NETWORK_DLL.exp
+       Manifest:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\NETWORK_DLL.dll.embed.manifest" /manifest Debug\NETWORK_DLL.dll.intermediate.manifest
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\NETWORK_DLL.dll.embed.manifest.res" Debug\NETWORK_DLL_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\users\user\documents\visual studio 2010\Projects\NETWORK_DLL\Debug\NETWORK_DLL.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\NETWORK_DLL.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"d:\users\user\documents\visual studio 2010\Projects\NETWORK_DLL\Debug\NETWORK_DLL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\users\user\documents\visual studio 2010\Projects\NETWORK_DLL\Debug\NETWORK_DLL.lib" /MACHINE:X86 /DLL Debug\NETWORK_DLL.dll.embed.manifest.res
+         Debug\dllmain.obj
+         Debug\NETWORK_DLL.obj
+         Debug\stdafx.obj
+            Creating library d:\users\user\documents\visual studio 2010\Projects\NETWORK_DLL\Debug\NETWORK_DLL.lib and object d:\users\user\documents\visual studio 2010\Projects\NETWORK_DLL\Debug\NETWORK_DLL.exp
+         NETWORK_DLL.vcxproj -> d:\users\user\documents\visual studio 2010\Projects\NETWORK_DLL\Debug\NETWORK_DLL.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\NETWORK_DLL.unsuccessfulbuild".
+         Touching "Debug\NETWORK_DLL.lastbuildstate".
+     1>Done Building Project "d:\Users\User\documents\visual studio 2010\Projects\NETWORK_DLL\NETWORK_DLL\NETWORK_DLL.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.95
